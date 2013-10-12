@@ -1,12 +1,12 @@
-# revision 21993
+# revision 31835
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-date 2012-06-06 22:57:48 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-courier
-Version:	20110301
-Release:	2
+Version:	20120606
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -116,16 +116,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/tfm/cg/courier/crr7j.tfm
 %{_texmfdistdir}/fonts/tfm/cg/courier/crr8u.tfm
 %{_texmfdistdir}/fonts/tfm/cg/courier/crr9t.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/pcrb8u.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/pcrbc8u.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/pcrbo8u.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/pcrr8u.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/pcrrc8u.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/pcrro8u.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/rpcrb.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/rpcrbo.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/rpcrr.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/courier/rpcrro.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/courier/ucrb7t.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/courier/ucrb8c.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/courier/ucrb8r.tfm
@@ -190,12 +180,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/vf/cg/courier/ccrr8t.vf
 %{_texmfdistdir}/fonts/vf/cg/courier/ccrri.vf
 %{_texmfdistdir}/fonts/vf/cg/courier/ccrri8t.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/courier/pcrb8u.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/courier/pcrbc8u.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/courier/pcrbo8u.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/courier/pcrr8u.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/courier/pcrrc8u.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/courier/pcrro8u.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/courier/ucrb7t.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/courier/ucrb8c.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/courier/ucrb8t.vf
@@ -228,17 +212,3 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
-+ Revision: 750556
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
-+ Revision: 718156
-- texlive-courier
-- texlive-courier
-- texlive-courier
-- texlive-courier
-
